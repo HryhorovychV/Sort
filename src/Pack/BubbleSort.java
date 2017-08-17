@@ -12,9 +12,6 @@ public class BubbleSort {
 					items[b]=items[j]; 
 					items[j]= change;
 				}
-
-				
-				
 			}
 		}
 		
@@ -28,6 +25,17 @@ public class BubbleSort {
 				System.out.println(items[i]);
 			}
 		}
+	
+	public void BinarySearch(int key, int [] items){
+		int a0 = 0;
+		int a1 = items.length;
+		for(int i =0; i< items.length/2; i++)
+		{
+			
+		}
+	
+	}
+	
 		
 	
 	
