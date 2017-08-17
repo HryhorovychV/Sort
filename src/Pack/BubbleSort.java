@@ -12,6 +12,7 @@ public class BubbleSort {
 					items[b]=items[j]; 
 					items[j]= change;
 				}
+
 				
 				
 			}
@@ -33,7 +34,7 @@ public class BubbleSort {
 	
 	public static void main(String[] args) {
 		BubbleSort s = new BubbleSort();
-		int [] b = new int [] {9, 6, 4, 3};
+		int [] b = new int [] {3, 7 ,22 ,9,0 ,8, 4, 3};
 		int [] a = s.Bubble(b);
         s.Print(a);
 	}
